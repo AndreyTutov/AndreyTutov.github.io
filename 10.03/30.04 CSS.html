@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>30/04 css</title>
+</head>
+<body>
+    <style>
+ <article>Article</article>
+ article{
+     border:5px dotted red;
+ }
+/*heigt: 200px;
+width: 200px;
+max-width: 500px;
+max-heigt: 500px;
+min-width: 100px;
+min-heigt: 100px;*/
+
+/*padding: 10px;
+margin: 20px;
+padding-left: 5px;
+padding-right: 10px;
+padding-top: 20px;
+padding-botton: 15px;
+
+padding: 20px 10px 15px 5px;
+padding: 20px 10px;
+padding: 20px 10px 10px;
+
+margin: 10px 20px 20px 12px
+margin-left: 12px;
+margin-top: 10px;
+margin-right: 20px;
+margin-botton: 20px;
+
+margin: 10px 0 15px auto;
+margin: 0 auto; block- по центру.
+text-align: centr inline
+
+displey: block;
+displey: inline;
+displey: inline-block;
+displey: none;*/
+
+    article:hover{
+        border-color: blue;
+    }
+ body main ul.liste li.list__item{
+     padding: 20px 10px 15px;
+     magin: 25px 20px 12px;
+
+     border: 2px solid rgba (0,255,0,1);
+     height: 30vh;
+     widht: 20%;
+     /*widht: calc(20% - 20px)*/
+     box-sizing: border-box;
+ }
+
+    <ul class="list">
+        <li class="list__item">1</li>
+        <li class="list__item">2</li>
+        <li class="list__item">3</li>
+        <li class="list__item">4</li>
+        <li class="list__item">5</li>
+        <li class="list__item">6</li>
+        <li class="list__item">7</li>
+        <li class="list__item">8</li>
+    </ul>
+
+    .ist__item:last-child{
+        displey: none;
+    }
+    .list__item:nth-laste-child(3){
+        font-style: italic;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.2;
+
+        font: italic
+
+    }
+    </style>
+</body>
+</html>
