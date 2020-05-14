@@ -1,0 +1,39 @@
+@font-face{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+body{
+    background-image:url(img/Plane1.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.logo .logo__img{
+  height: 7%;
+  width: 7%;
+  box-shadow: royalblue;
+}
+.logo-fly{ 
+    color: rgb(12, 129, 197);
+    display: inline;
+}
+.informetion {
+    text-align: right;
+  color: rgb(229, 237, 250);
+ height: auto;
+ font-size: 20px;
+  margin-top: -5em;
+}
+.informetion__text{
+   color: gold;
+}
+.text .text__soon {
+  text-align: center;
+  font-size: 150px;
+     color: blue;
+  border: 10px solid white;
+    -moz-box-shadow: 0 0 3px 1px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 0 3px 1px rgba(0,0,0,0.5);
+    box-shadow: 0 0 3px 1px rgba(245,234,235,0.5);
+  
+  }

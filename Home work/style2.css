@@ -1,0 +1,95 @@
+section article:nth-child(1) { 
+    font-family: 'Raleway', sans-serif;
+    color: red;
+    background-color: #23d1c3;
+    
+}
+@font-face {
+    font-family: "RalewayThin";
+    src: url("../fonts/RalewayThin/RalewayThin.eot");
+    src: url("../fonts/RalewayThin/RalewayThin.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RalewayThin/RalewayThin.woff") format("woff"),
+    url("../fonts/RalewayThin/RalewayThin.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+ .text .text__linc2{
+     font-family: "RalewayThin";
+     font-size: 20px;
+     color: dodgerblue; 
+     font: 700;
+     text-shadow: 0 0 5px rgba(0,0,0,0.7);
+ } 
+ * {
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font: 500;
+ }
+.header .form__item {
+    background: rgb(255, 224, 51);
+}
+
+section .text{
+    font-size: 20px;
+    color: lawngreen;
+    margin: 15% em;
+    text-align: center;
+    padding: 25%em;
+}
+ .content span {
+    max-width: 30px;
+    color:red;
+    border: deepskyblue;
+    border-style: inset;
+    font-style: italic;
+}
+.content .content-block__text{
+    min-width: 20%rem;
+    color:rgb(155, 9, 150);
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 1em; padding:2vw;
+    border-radius: 4em;
+    background-color: mediumspringgreen;
+    
+}
+.blog-nav {
+    list-style: none;
+}
+.section .text__blog{
+    color: rgb(15, 66, 83);
+    font-style: italic;
+    border: lightsalmon;
+    border-radius: 3em;
+    background-color: magenta;
+    text-align: center;
+
+}
+#blog .blog-nav__block__item{
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 10px;
+   float: left;
+   font-size: 20px;
+   background-color:rgb(158, 245, 158);
+}
+button {
+    background-color: mediumspringgreen;
+}
+
+ .text article:nth-child(n+4) {
+     background: rgb(241, 158, 89);
+      padding:3em;
+       margin: 2vw;
+ }
+ .section #text1 {
+     color: rgb(243, 70, 7);
+     margin: 5px;padding: 1vw;
+    text-align: left;
+    background-color: darkgrey;
+    font-weight: bolder;
+ }
+.section .text {
+    color: maroon;
+    text-align: center;
+}
