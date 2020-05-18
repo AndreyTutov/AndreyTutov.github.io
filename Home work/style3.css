@@ -1,12 +1,24 @@
-@font-face{
+        /* body */
+  
+  @font-face{
     font-family: 'Raleway', sans-serif;
 }
-
-
-body{
-    background-image:url(img/Plane1.jpg);
-    background-size: cover;
-    background-repeat:no-repeat;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ body{
+    background: wheat;
+}
+ .foto {
+   width: 98.8vw;
+   height: 100vh;
+  background-image:url(img/Plane1.jpg);
+  background-size: cover;
+  font-size: 15px;
+  background-repeat:no-repeat;
+ 
 }
 .logo .logo__img{
   height: 7%;
@@ -18,22 +30,124 @@ body{
     display: inline;
 }
 .informetion {
-    text-align: right;
+  text-align: right;
   color: rgb(229, 237, 250);
  height: auto;
  font-size: 20px;
-  margin-top: -5em;
+  margin-top: -4em;
 }
 .informetion__text{
    color: gold;
 }
+  .text{ 
+display: flex;
+justify-content: center;
+margin-top: 10em;
+}
 .text .text__soon {
   text-align: center;
+  padding: 30px;
+  padding-top: 25px;
   font-size: 150px;
      color: blue;
   border: 10px solid white;
     -moz-box-shadow: 0 0 3px 1px rgba(0,0,0,0.5);
     -webkit-box-shadow: 0 0 3px 1px rgba(0,0,0,0.5);
     box-shadow: 0 0 3px 1px rgba(245,234,235,0.5);
-  
   }
+
+      /* main */
+   
+   main {
+     background-color: darkslateblue;
+   }  
+
+  .hover-cub__div{
+    float: left;
+    width: 20%;
+    height: 300px;
+    margin: 6%;
+    background:purple;
+    box-shadow: 0 0 2px 2px rgba(0,1,0,1) ;
+    background-image: url(img/скрипичный\ ключ.jpg);
+}
+.hover-cub__div:before{
+    font-family: "Font Awesome 5 Free";
+    padding-left: calc(60% - 20%);
+    width: 100%;
+    height: 100%;
+    font-size: 60px;
+    color: rgb(231, 14, 14);
+}
+
+.hover .hover-cub__div{
+    transform: skew(20deg);
+}
+.hover-cub__div p {
+  padding: 10%;
+  text-align:center;
+  color: rgb(255, 0, 128);
+  font-style: bold;
+  font-size: 18px;
+}
+.block h2{
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+  
+}
+      .block a:nth-child(1) .hover-cub__div{
+        transition: 1s steps(3, end);
+      }
+      .block a:nth-child(1) .hover-cub__div:hover{
+       transform: skewY(3deg);
+       background: linear-gradient(red,blue);
+      }
+      .block a:nth-child(2) .hover-cub__div{
+        transition: 3s steps(4, end);
+      }
+      .block a:nth-child(2) .hover-cub__div:hover{
+       transform: rotate(6deg);
+       background: linear-gradient(gold, red);
+      }
+      .block a:nth-child(3) .hover-cub__div{
+        transition: 2s steps(2, end);
+      }
+      .block a:nth-child(3) .hover-cub__div:hover{
+       transform: translate(2em,3em);
+       background: linear-gradient(yellow, green);
+      }
+  .animation{
+    width: 100px;
+    height: 100px;
+    border: 6px solid red;
+    clear: both;
+    border-radius: 10px;
+    animation:polo 4s linear 2s 3 reverse;
+}
+
+@keyframes polo {
+  0% {
+      margin-left: 20em;
+      border-radius: 10em;
+    
+  }
+  50%{
+      margin-left: 50px;
+      border-radius: 40px;
+     width: 50px;
+      animation-duration: 3em;
+      background:rgb(53, 243, 49);
+  }
+  75%{
+        margin-left: 300px;
+        width: 20px;
+        height: 40px;
+      }
+  }
+  100% {
+      margin-left: 200px;
+      border-radius: 60%;
+      background: rgb(17, 135, 245);
+  }
+}
